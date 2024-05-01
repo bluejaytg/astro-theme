@@ -1,13 +1,13 @@
 ---
 // Import your React component
-import MyReactComponent from '../components/react/MyReactComponent.jsx';
+import LoginForm from '../components/react/LoginForm.jsx';
 import Layout from '../layouts/Layout.astro'; // Optional: If you want to use a layout
+import ProposalGenerator from '../components/react/ProposalGenerator.jsx';
+
+
 
 ---
 
-<Layout title="Login">
   <main>
-    <MyReactComponent />
+    <ProposalGenerator client:load />  
   </main>
-</Layout>
-../components/react/MyReactComponent.jsx
